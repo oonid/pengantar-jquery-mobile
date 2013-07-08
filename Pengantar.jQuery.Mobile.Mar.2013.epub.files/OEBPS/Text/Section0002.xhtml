@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+</head>
+
+<body>
+  <p><b>Sekilas jQuery Mobile</b></p>
+
+  <p>jQuery Mobile adalah framework berbasis jQuery yang memudahkan kita untuk membuat web app berbasis touch untuk mobile platform. Selain jQuery mobile sebenarnya ada framework lain yang dapat digunakan seperti Sencha, jTouch, DHTMLX Touch, Jo dan lainnya. Kelebihan jQuery adalah:</p>
+
+  <ol>
+    <li>1. Support banyak platform: Webkit (Android, iOS, Opera, Chrome), Firefox mobile, Windows Phone, Blackberry, Bada, Meego.</li>
+
+    <li>Berbasis jQuery yang populer.</li>
+
+    <li>Penggunanya banyak dengan forum yang aktif.</li>
+  </ol>
+
+  <p>jQuery Mobile menyediakan komponen UI widget seperti button, listview, header dan elemen form dan navigasi.</p>
+
+  <p><b>Instalasi</b></p>
+
+  <p>Siapkan web server seperti XAMPP. Jika menggunakan Chrome, sebaiknya install Ripple Emulator untuk melihat preview web app di mobile browser. Dengan Ripple, kita dapat mencoba webapp untuk berbagai platform tanpa emulator. Buka URL di bawah ini dalam Chrome:</p>
+
+  <p><a href="https://chrome.google.com/webstore/detail/ripple-emulator-beta/geelfhphabnejjhdalkjhgipohgpdnoc?hl=en">https://chrome.google.com/webstore/detail/ripple-emulator-beta/geelfhphabnejjhdalkjhgipohgpdnoc?hl=en</a></p>
+
+  <p>-&gt;&nbsp;<a href="http://bit.ly/10VCTsK">http://bit.ly/10VCTsK</a></p>
+
+  <p><img alt="gambar-1-contoh-ripple" src="../Images/gambar-1-contoh-ripple.png" /><br />
+  (Gambar 1 Contoh Ripple)</p>
+
+  <p>Download jQueryMobile di <a href="http://jquerymobile.com/download">http://jquerymobile.com/download</a> dan ekstrak ke localhost atau target hosting. File css dan js jQueryMobile sendiri sebenarnya tidak perlu di-download karena dapat digunakan melalui CDN (Content Delivery Network). Contoh deklarasinya adalah sebagai berikut:</p>
+
+  <p><img alt="code-1" src="../Images/code-1.png" /><br />
+  (Code 1)</p>
+
+  <p>Kelebihan menggunakan CDN adalah jika browser telah memiliki cache file maka tidak perlu ada proses download sehingga lebih cepat. Tetapi jika anda mengembangkan web app secara lokal dalam kondisi sering tidak terkoneksi dengan internet, maka copy jquery.mobile-1.2.0.min.js, jquery.mobile-1.2.0.min.css dan direktori /image hasil download ke direktori tempat web app. Sedangkan untuk lib jquery-nya sendiri dapat diperoleh di <a href="http://code.jquery.com/jquery-1.8.2.min.js">code.jquery.com/jquery-1.8.2.min.js</a> (buka dibrowser dan pilih save-page-as). Contoh deklarasi dengan file lib diletakkan pada direktori yang sama dengan file html-nya adalah sebagai berikut:</p>
+
+  <p><img alt="code-2" src="../Images/code-2.png" /><br />
+  (Code 2)</p>
+
+  <p>Untuk code diatas, isi direktori akan tampak seperti berikut</p>
+
+  <p><img alt="gambar-2-struktur-file" src="../Images/gambar-2-struktur-file.png" /><br />
+  (Gambar 2 Struktur File)</p>
+</body>
+</html>

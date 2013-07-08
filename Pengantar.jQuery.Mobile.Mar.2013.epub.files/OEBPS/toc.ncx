@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+   <meta content="urn:uuid:f261ba48-b02b-4dd2-ab04-7c57c9b87495" name="dtb:uid"/>
+   <meta content="0" name="dtb:depth"/>
+   <meta content="0" name="dtb:totalPageCount"/>
+   <meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+   <text>Unknown</text>
+</docTitle>
+<navMap>
+<navPoint id="navPoint-1" playOrder="1"><navLabel><text>Cover</text></navLabel><content src="Text/Cover.xhtml"/></navPoint>
+<navPoint id="navPoint-2" playOrder="2"><navLabel><text>Title</text></navLabel><content src="Text/Title.xhtml"/></navPoint>
+<navPoint id="navPoint-3" playOrder="3"><navLabel><text>Pengantar Modul</text></navLabel><content src="Text/Section0001.xhtml"/></navPoint>
+<navPoint id="navPoint-4" playOrder="4"><navLabel><text>Sekilas jQuery Mobile</text></navLabel><content src="Text/Section0002.xhtml"/></navPoint>
+<navPoint id="navPoint-5" playOrder="5"><navLabel><text>UI Widget</text></navLabel><content src="Text/Section0003.xhtml"/></navPoint>
+</navMap>
+</ncx>

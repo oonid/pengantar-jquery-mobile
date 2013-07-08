@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:f261ba48-b02b-4dd2-ab04-7c57c9b87495</dc:identifier>
+    <dc:date opf:event="modification">2013-07-09</dc:date>
+    <meta content="0.7.2" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/Cover.xhtml" id="Cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Title.xhtml" id="Title.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/cc-by-nc-sa.png" id="cc-by-nc-sa.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/gambar-1-contoh-ripple.png" id="gambar-1-contoh-ripple.png" media-type="image/png" />
+    <item href="Images/code-1.png" id="code-1.png" media-type="image/png" />
+    <item href="Images/code-2.png" id="code-2.png" media-type="image/png" />
+    <item href="Images/gambar-2-struktur-file.png" id="gambar-2-struktur-file.png" media-type="image/png" />
+    <item href="Text/Section0003.xhtml" id="Section0003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/code-3.png" id="code-3.png" media-type="image/png" />
+    <item href="Images/gambar-3.png" id="gambar-3.png" media-type="image/png" />
+    <item href="Images/gambar-5.png" id="gambar-5.png" media-type="image/png" />
+    <item href="Images/gambar-6.png" id="gambar-6.png" media-type="image/png" />
+    <item href="Images/gambar-7.png" id="gambar-7.png" media-type="image/png" />
+    <item href="Images/gambar-9.png" id="gambar-9.png" media-type="image/png" />
+    <item href="Images/gambar-4.png" id="gambar-4.png" media-type="image/png" />
+    <item href="Images/code-4.png" id="code-4.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Cover.xhtml" />
+    <itemref idref="Title.xhtml" />
+    <itemref idref="Section0001.xhtml" />
+    <itemref idref="Section0002.xhtml" />
+    <itemref idref="Section0003.xhtml" />
+  </spine>
+  <guide />
+</package>

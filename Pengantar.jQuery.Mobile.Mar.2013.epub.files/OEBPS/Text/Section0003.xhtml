@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+</head>
+
+<body>
+  <p><b>UI Widget</b></p>
+
+  <p>UI widget yang dibahas dalam modul ini adalah ListView, Button dan Form.</p>
+
+  <p><b>Page dan ListView</b></p>
+
+  <p>Selanjutnya kita akan membuat web app pertama yang menampilkan pilihan tahun. Buat file index.html dengan kode sebagai berikut, pastikan struktur direktori sudah seperti Gambar 2:</p>
+
+  <p><img alt="code-3" src="../Images/code-3.png" /><br />
+  (Code 3)</p>
+
+  <p>Ada tiga atribut penting pada kode diatas, pertama “page”, “header”, “content” dan “listview”. Atribut data-inset=”true” menyatakan bentuk listview, jika ini dihilangkan maka listview akan berbentuk kotak tidak bersudut. Detil tentang UI widget ini dan lainnya dapat dilihat di: http://localhost/jquery.mobile-1.2.0/demos/docs/lists/index.html (ekstrak download dari jQuerymobile.com ke localhost)</p>
+
+  <p>tampilan tanpa menggunakan Ripple di browser Chrome akan seperti ini</p>
+
+  <p><img alt="gambar-3" src="../Images/gambar-3.png" /><br />
+  (Gambar 3)</p>
+
+  <p>Tapi jika Ripple diaktifkan (jika belum diinstall download di <a href="http://bit.ly/10VCTsK">http://bit.ly/10VCTsK</a>)</p>
+
+  <p><img alt="gambar-4" src="../Images/gambar-4.png" /><br />
+  (Gambar 4)</p>
+
+  <p>Maka hasilnya akan seperti ini:</p>
+
+  <p><img alt="gambar-5" src="../Images/gambar-5.png" /><br />
+  (Gambar 5)</p>
+
+  <p>Selanjutnya kita akan membuat daftar_mhs.html yang akan dipanggil saat tahun diklik. Untuk setiap baris, akan ditampilkan foto setiap mahasiswa. Buat dua image berukuran sekitar 128x128 beri nama mhs1.jpg dan mhs2.jpg dan letakkan di direktori yang sama dengan index.htm. Lalu buat code berikut:</p>
+
+  <p><img alt="code-4" src="../Images/code-4.png" /><br />
+  (Code 4)</p>
+
+  <p>Bagian yang dilingkari adalah tambahan dari code sebelumnya. Atribut data-add-back-btn menambahkan tombol “back” pada header untuk kembali ke page sebelumya. data-filter untuk menambahkan fasilitas filter listview (bukan search). Sedangkan &lt;img&gt; untuk menambahkan foto mahasiswa di dalam listview. Preview dapat dilihat pada gambar berikut:</p>
+
+  <p><img alt="gambar-6" src="../Images/gambar-6.png" /><br />
+  (Gambar 6)</p>
+</body>
+</html>
