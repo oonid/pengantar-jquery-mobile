@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:f261ba48-b02b-4dd2-ab04-7c57c9b87495</dc:identifier>
-    <dc:date opf:event="modification">2013-07-09</dc:date>
+    <dc:date opf:event="modification">2013-07-10</dc:date>
     <meta content="0.7.2" name="Sigil version" />
   </metadata>
   <manifest>
@@ -25,6 +25,13 @@
     <item href="Images/gambar-9.png" id="gambar-9.png" media-type="image/png" />
     <item href="Images/gambar-4.png" id="gambar-4.png" media-type="image/png" />
     <item href="Images/code-4.png" id="code-4.png" media-type="image/png" />
+    <item href="Images/code-5.png" id="code-5.png" media-type="image/png" />
+    <item href="Images/gambar-8.png" id="gambar-8.png" media-type="image/png" />
+    <item href="Images/code-6.png" id="code-6.png" media-type="image/png" />
+    <item href="Images/code-7.png" id="code-7.png" media-type="image/png" />
+    <item href="Images/gambar-10.png" id="gambar-10.png" media-type="image/png" />
+    <item href="Images/code-8.png" id="code-8.png" media-type="image/png" />
+    <item href="Images/gambar-11.png" id="gambar-11.png" media-type="image/png" />
   </manifest>
   <spine toc="ncx">
     <itemref idref="Cover.xhtml" />
